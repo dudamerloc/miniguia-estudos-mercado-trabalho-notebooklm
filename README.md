@@ -1,5 +1,7 @@
 # 🧠 Documentação de Experimento: Segundo Cérebro no NotebookLM para Recém-Formados
 
+Link do NotebookLM: https://notebooklm.google.com/notebook/0fab0429-3518-45d2-a7c5-87067e5d57d2
+
 > **Descrição:** Um guia prático e template de "Segundo Cérebro" no NotebookLM para ajudar recém-formados a melhorarem seu portfólio e serem notados pelo mercado de trabalho.
 
 Este repositório documenta um laboratório prático de Engenharia de Prompts utilizando o NotebookLM. O objetivo é criar uma metodologia para que profissionais em início de carreira possam estruturar seus estudos e gerar conteúdo estratégico de portfólio.
@@ -19,10 +21,12 @@ Este material foi desenvolvido com os seguintes propósitos de aprendizado:
 
 Para que o modelo funcionasse com dados reais e atualizados do ecossistema de recrutamento e tecnologia, foram selecionadas e carregadas algumas das seguintes fontes abertas:
 
-*   **[Fonte 1: Tendências de Recrutamento Tech (Exemplo)]** - *[Insira o Link Aqui]*: Relatório sobre as habilidades mais demandadas pelo mercado atual.
-*   **[Fonte 2: O Guia do "Learning in Public" por Swyx]** - *[Insira o Link Aqui]*: Ensaio base sobre a importância de documentar o aprendizado publicamente.
-*   **[Fonte 3: Framework de Estudos de Caso para Portfólios]** - *[Insira o Link Aqui]*: Metodologia de como estruturar projetos técnicos de forma narrativa para negócios.
-*   *(Opcional) [Seu Currículo Base / Template de Portfólio]* - Utilizado como insumo de dados pessoais para os testes.
+* https://prodest.es.gov.br/como-os-profissionais-de-ti-podem-usar-o-linkedin (Como os profissionais de TI podem usar o LinkedIn
+)
+* https://www.devmedia.com.br/como-montar-um-portfolio-de-programacao-mesmo-sem-experiencia/44180 (Como Montar um Portfólio de Programação Mesmo Sem Experiência?)
+* https://www.opservices.com.br/certificacoes-de-ti/ (Certificações de TI mais requisitadas em 2026: guia por domínio de carreira)
+* https://quarkrh.com.br/blog/10-tendencias-de-recrutamento-e-selecao/ (10 Tendências de Recrutamento e Seleção que vão marcar 2026)
+* https://docs.github.com/pt/pages/quickstart (Início Rápido para Páginas do GitHub)
 
 ---
 
@@ -46,7 +50,6 @@ Abaixo estão registrados os testes de prompts, as variações aplicadas, os res
 *   **Prompt Inicial (Falhou):** *"Escreva um post pro LinkedIn sobre o meu projeto."*
     *   **Resultado/Problema:** O texto gerado parecia propaganda corporativa artificial, cheio de jargões cafonas e hashtags excessivas.
 *   **Prompt Otimizado (Sucesso):** *"Utilizando a metodologia da Fonte 2 (Learning in Public), transforme o Desafio X do meu projeto em uma narrativa curta para o LinkedIn. Estrutura rígida: 1 frase curta de impacto, o problema técnico enfrentado, o erro cometido antes de acertar, e a solução. Tom: Jovem, técnico e sem autopromoção exagerada."*
-    *   **Cicatrize/Lição Aprendida:** Para evitar o tom de "venda" da IA, o segredo é impor uma **estrutura rígida de tópicos** e proibir termos de autopromoção diretamente no comando técnico.
 
 ---
 
@@ -56,3 +59,4 @@ Ao navegar pelos arquivos deste repositório, você encontrará:
 *   Os arquivos markdown prontos com os prompts finais validados.
 *   Exemplos de saídas de texto estruturadas prontas para adaptação.
 *   A lógica de como utilizar ferramentas de IA de forma analítica e crítica, e não como um mero gerador de texto automático.
+
